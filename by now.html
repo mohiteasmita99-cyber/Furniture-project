@@ -3,37 +3,39 @@
 
 <head>
 
-<head>
- <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
+<link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css" />
+<script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
+    <title>Furniture showroom</title>
 
-  <title>Furniture showroom</title>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+    <!-- lightbox Gallery-->
+    <link rel="stylesheet" href="css/ekko-lightbox.css" />
 
-  <!-- lightbox Gallery-->
-  <link rel="stylesheet" href="css/ekko-lightbox.css" />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./buyNow.py"/>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
-</head>
+  </head>
 
 <body>
 
@@ -59,15 +61,15 @@
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="gallery.html">gallery</a>
-              <a href="all categories.html">All categories</a>
+                <a href="all categories.html">All categories</a>
 
-            <a href="Chair.html">Chair</a>
-               <a href="Bed.html">Bed</a>
-             <a href="sofa set.html">sofa set</a>
-             <a href="dining table.html">dining table</a>
-              <a href="cupboard.html">cupboard</a>
-            <a href="table.html">table</a>
-              <a href="electronic category.html">Electronic categories</a>
+                <a href="Chair.html">Chair</a>
+                <a href="Bed.html">Bed</a>
+                <a href="sofa set.html">sofa set</a>
+                <a href="dining table.html">dining table</a>
+                <a href="cupboard.html">cupboard</a>
+                <a href="table.html">table</a>
+                <a href="electronic category.html">Electronic categories</a>
 
                 <a href="Categories.html">Discount categories</a>
               </div>
@@ -78,32 +80,32 @@
     </div>
   </header>
   <!-- end header section --><br><br>
-<!-- contact section -->
+  <!-- contact section -->
   <section class="contact_section  ">
     <div class="container">
       <div class="row">
         <div class="col-md-7 col-lg-6 ">
           <div class="form_container">
             <div class="heading_container ">
-              <h2>
-                Contact Us
+              <h2 style="color: white;">
+                Buy Now
               </h2>
             </div>
             <form action="">
               <div>
-                <input type="text" placeholder="Your Name" />
+                <input type="text" name="name" placeholder="Your Name" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone" placeholder="Phone Number" />
               </div>
               <div>
-                <input type="text" placeholder="Enter delivery pincode" />
+                <input type="text" name="city" placeholder="City" />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Address" />
+                <input type="text" name="address" class="message-box" placeholder="Address" />
               </div>
               <div class="btn_box">
                 <button>
@@ -116,26 +118,32 @@
         <div class="col-md-5 col-lg-6">
           <div class="subscribe-box">
             <h3>
-            View All Reviews 
+              View All Reviews
             </h3>
             <p>
-             <ul>
-<li><p>Lowest price</p></li>
-<li><p>Cash on Delivery</p></li>
-<li><p>7-Day Returns</p></li>
-            </p>
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-        <a href="index.html">
-              back
-            </a>
-              </button>
-            </form>
+            <ul>
+              <li>
+                <p>Lowest price</p>
+              </li>
+              <li>
+                <p>Cash on Delivery</p>
+              </li>
+              <li>
+                <p>7-Day Returns</p>
+              </li>
+              </p>
+              <form action="">
+
+                <button>
+                  <a href="index.html">
+                    back
+                  </a>
+                </button>
+              </form>
           </div>
         </div>
       </div>
-<div class="btn-box">
+      <div class="btn-box">
         <a href="service.html">
           back
         </a>
@@ -144,7 +152,7 @@
   </section>
   <!-- end contact section -->
 
-<!-- jQery -->
+  <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <!-- bootstrap js -->
   <script src="js/bootstrap.js"></script>
